@@ -1,0 +1,145 @@
+/* Universal style */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* First secttion */
+.first {
+    background-color: #1f2937;
+    padding: 10px 150px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+}
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.main {
+    display: flex;
+    padding: 100px 0px;
+    gap: 150px;
+}
+.main img {
+    height: 250px;
+    width: 500px;
+}
+.text {
+    width: 500px;
+}
+.text h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0px;
+}
+.text p {
+    margin: 0px;
+    color: #8c8d90;
+}
+.text button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
+/* Second secttion */
+.info {
+    text-align: center;
+    padding: 0px 200px 70px;
+}
+.info-header {
+    padding: 50px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.list-info {
+    display: flex;
+}
+.list-info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+}
+.list-info p {
+    color: #5c5c5e;
+}
+
+
+/* Third secttion */
+.third {
+    background-color: #E5E7EB;
+    padding: 150px 200px;
+}
+.third i {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.third p {
+    text-align: right;
+    padding-right: 100px;
+    margin: 0;
+}
+
+
+/* Last secttion */
+.fourth {
+    padding: 100px 200px;
+}
+.call {
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.call strong {
+    color: #F9FAF8;
+    margin: 0;
+    font-size: 20px;
+}
+.call p {
+    margin: 0;
+    color: #E5E7EB;
+}
+.call button {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    padding: 0px 30px;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
+
+/* Footer section */
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
